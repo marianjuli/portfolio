@@ -1,0 +1,12 @@
+Google Fonts
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+
+Text color 576FCF
+
+ext underlined with color : #1A254E

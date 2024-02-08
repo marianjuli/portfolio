@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="/portfolio/styles.css" />
+
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>L</span>isandro.</h2>
+        <nav class="navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
+
+    </header>
+
+
+    <section class="content">
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your name here...">
+
+                <br>
+
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required placeholder="Your email here...">
+
+                <br>
+
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe"  id="subscribe-label">Subscribe to Newsletter</label>
+
+                <br>
+
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+                <br>
+
+                <button type="submit" class="form-button">Submit</button>
+
+            </fieldset>
+        </form>
+
+    </section>
+
+
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Portfolio model
 
-##This project is a portfolio website developed in Javascript, html,and CSS
+##This project is a portfolio website developed in HTML and CSS
 
 ### Languages used
 *HTML*
